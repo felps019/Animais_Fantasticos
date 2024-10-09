@@ -31,13 +31,6 @@ export default class Funcionamento {
     }
   }
 
-  init() {
-    if (this.funcionamento) {
-      this.dadosFuncionamento();
-      this.dadosAgora();
-      this.ativaAberto();
-    }
-    return this;
   dadosAgora() {
     this.dataAgora = new Date();
     this.diaAgora = this.dataAgora.getDay();
